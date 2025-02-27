@@ -1,0 +1,27 @@
+ZAROS DAILY CHECK-IN
+
+Use session id token and accountId and wallet address :
+
+sessionID =F12 - Local Storage
+
+AccountID = Trading Account#(YOUR ACCOUNT ID) ex : Trading Account#8930
+
+nano config.json
+
+Config.json format ⬇️
+JSON
+
+{
+  "baseUrl": "https://production.api.zaros.fi",
+  "accountId": "8xxx",
+  "walletAddress": "WALLETADDREESS",
+  "sessionToken": "your-session-token-here"
+}
+
+shell
+
+npm install axios fs path
+
+node zaros.js
+
+register :
